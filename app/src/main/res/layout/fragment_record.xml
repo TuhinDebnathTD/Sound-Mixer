@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#ADD8E6">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/toolbarTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:text="@string/record_audio"
+            android:textColor="@android:color/white"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+
+    <TextView
+        android:id="@+id/tvTimer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="204dp"
+        android:text="@string/_11_43"
+        android:visibility="invisible"
+        android:textColor="@android:color/white"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/tvRecordingNow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvTimer"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="@string/recording_now"
+        android:visibility="invisible"
+        android:textColor="@android:color/white"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="32dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/btnPlay"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginEnd="24dp"
+            android:src="@drawable/ic_play"
+            android:background="@drawable/circle_button_background" />
+
+        <ImageButton
+            android:id="@+id/btnStop"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/ic_pause"
+            android:background="@drawable/circle_button_background" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="@string/search"
+        android:id="@+id/search_tab"
+        android:icon="@drawable/search_icon" />
+    <item
+        android:title="@string/record"
+        android:id="@+id/recording_tab"
+        android:icon="@drawable/mic"
+         />
+    <item
+        android:id="@+id/files_tab"
+        android:icon="@drawable/files"
+        android:title="@string/files" />
+    <item
+        android:id="@+id/merge_tab"
+        android:icon="@drawable/merge"
+        android:title="@string/merge" />
+    <item
+        android:id="@+id/play_tab"
+        android:icon="@drawable/play"
+        android:title="@string/play" />
+</menu>

@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Sound Mixer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="merge_files">Merge Files</string>
+    <string name="please_select_two_files_from_the_files_screen_to_merge">Please select two files from the files tab to merge</string>
+    <string name="merge_selected_files">Merge Selected Files</string>
+    <string name="record_audio">Record Audio</string>
+    <string name="files">Files</string>
+    <string name="merged_files">Merged Files</string>
+    <string name="_11_43">11:43</string>
+    <string name="recording_now">Recording Now</string>
+    <string name="search_audio">Search Audio</string>
+    <string name="song_name">Song Name</string>
+    <string name="play">Play</string>
+    <string name="download">Download</string>
+    <string name="file_name">File Name</string>
+    <string name="merging_files">Merging files...</string>
+    <string name="please_wait_while_we_fetch_the_results">Please wait while we fetch the results.</string>
+    <string name="search">Search</string>
+    <string name="record">Record</string>
+    <string name="merge">Merge</string>
+</resources>
